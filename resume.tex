@@ -1,0 +1,268 @@
+%-------------------------
+% Resume in Latex
+% Author : Chandra Prakash Dixit
+% Based off of: https://github.com//resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+\usepackage{charter}
+\usepackage{fontawesome5} % for icons e.g. mail, mobile, linkedin, github etc
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %\small#3 & \small #4 \
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+     %\textit{\small#1} & \textit{\small #2} \\
+      \text{\small#1} & \text{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Chandra Prakash Dixit} \\ \vspace{2pt}
+    \faIcon{map-marker-alt}  \small Bengaluru, KA, IN $|$
+    \faIcon{mobile-alt} +91-9452-100-509 $|$ \faIcon{envelope} \href{mailto:cppdev5y@gmail.com}{\underline{cppdev5y@gmail.com}} $|$ 
+    {\faIcon{linkedin-in}} \href{https://www.linkedin.com/in/dixit-chandra/}{\underline{dixit-chandra}}
+%    $|$ \faIcon{github} \href{https://github.com/littledroplets}{\underline{littledroplets}} 
+%    $|$ \faIcon{link} \href{https://littledroplets.github.io/}{\underline{Website}}
+\end{center}
+
+
+%-----------PROFILE-----------
+
+\section{Profile}
+\resumeSubHeadingListStart
+		{\item
+		{Experienced C++ Developer, well versed with concepts of Object Oriented Programming, Data Structures \& Algorithms; adept in bringing forth expertise in design, development, testing and maintenance of cross-platform software systems. Equipped with a diverse and promising skill-set. Familiar with the latest cutting-edge development tools, procedures \& methodologies; able to effectively self-manage during independent projects, as well as collaborate effectively within a productive team.}
+		}
+\resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+    \small{\item{
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+     \textbf{Languages}{: C++ 11/14/17, Perl, Python, Lua} &
+     \textbf{Frameworks}{: Google Test, Google protobuf, Qt} \\
+     \textbf{Developer Tools}{: Git, VS Code, XCode, Qt Creator, Jenkins, Jira} &
+     \textbf{Libraries}{: STL, boost, SOL} \\
+     \end{tabular*}\vspace{-5pt}
+    }}
+ \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {{Master of Technology $|$ \emph{\small{Advanced Computing}}}}{Aug. 2016 -- Sep 2018}
+      {Maulana Azad National Institute of Technology}{Bhopal, MP, IN}
+    \resumeSubheading
+      {{Bachelor of Technology $|$ \emph{\small{Computer Science \& Engineering}}}}{Jul. 2011 -- June 2015}
+      {Dr. A.P.J. Abdul Kalam Technical University (formerly U.P.T.U.)}{Lucknow, UP, IN}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior Developer}{March 2023 -- Present}
+      {Broadridge Trading and Connectivity Solutions}{Bengaluru, KA, IN}
+      \resumeItemListStart
+        \resumeItem{Product: TBricks, an automated trading platform.}
+        \resumeItem{Refactored existing code to improve readability and maintainability, resulting in a reduction in development time.}
+        \resumeItem{Implemented new features and fixed existing issues resulting in improved user experience while learning about trading domain.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Software Engineer}{Sep. 2022 -- Feb. 2023}
+      {WorkFusion}{Hyderabad, TS, IN}
+      \resumeItemListStart
+        \resumeItem{Product: WorkFusion RPA, Control Tower.}
+        \resumeItem{Responsible for code improvement, feature implementation and bug fixes for core RPA product while collaborating with team in Poland.}
+        \resumeItem{Removed over 1200 memory leaks in code which resulted in drop in customer issues by more than 50\%.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+          {Consultant C++ Developer}{Dec. 2021 -- Sep. 2022}
+          {MTX Group Inc.}{Hyderabad, TS, IN}
+          \resumeItemListStart
+            \resumeItem{Product: CI Tools by Central Innovations.}
+            \resumeItem{Responsible for well documented, peer reviewed Add- on development \& maintenance for Windows \& Mac Platform of ArchiCAD software using SDK.}
+            \resumeItem{Migrated complete set of CI tools to be compatible with ArchiCAD 26 in 30\% lesser time than  usual.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Engineer}{Jan. 2018 -- Dec. 2021}
+      {John Deere}{Pune, MH, IN}
+      \resumeItemListStart
+        \resumeItem{Product: Gen4 Display for Precision Agriculture.}
+        \resumeItem{Started as Intern, later converted to PGET and Promoted to Senior Engineer within as result of consistent performance.}
+        \resumeItem{Responsible for implementation of business requirements coming from Product Owner and stakeholders for Gen4 Displays based on Wind River RTOS in Linux dev environment.}
+        \resumeItem{Developed various applications for Gen4 Displays of various machines and implements.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      	{\textbf{TBRICKS Core Development}}{\emph{Broadridge}}
+      		\resumeSubHeadingListStart
+      			{\item
+          			{Working as individual contributor in CORE back-end Team of automated trading platform, TBricks. I have worked on multiple back-end utilities while incorporating new features  \& providing bug fixes to various tbricks admin tools.
+         			}
+          		}
+        	\resumeSubHeadingListEnd
+       \resumeProjectHeading
+       	{\textbf{RPA MFW}}{\emph{WorkFusion}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Worked on improving CORE DLL component of Workfusion RPA, A UI Manipulation framework written mainly with C++ and WIN32 API to simulate UI operations needed for RPA bots.}
+             	}
+	        \resumeSubHeadingListEnd
+       \resumeProjectHeading
+       	{\textbf{CI Tools - ArchiCAD Addon}}{\emph{MTX Group Inc}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Improved and migrated CI Tools Windows \& Mac addons for ArchiCAD software through integrating new features \& fixing existing defects using ArchiCAD SDK.}
+             	}
+	        \resumeSubHeadingListEnd	        
+
+       \resumeProjectHeading
+       	{\textbf{Configurable Doc UI}}{\emph{John Deere}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Technical PoC Project at John Deere for Rapid deployment of updates instead of yearly release model; also added support of importing encrypted config files via USB and Cloud deployment.}
+             	}
+	        \resumeSubHeadingListEnd
+       \resumeProjectHeading
+       	{\textbf{Work Notes}}{\emph{John Deere}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Performed End to end execution of this feature which provides Machine operators with a framework to log Work-based observations \& export those to the cloud.}
+             	}
+	        \resumeSubHeadingListEnd
+		\resumeProjectHeading
+       	 {\textbf{Machine \& Work Monitor}}{\emph{John Deere}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Supporting multiple platforms over multiple releases for displaying \& logging various machine and work-related data coming from CAN Bus or other applications.}
+             	}
+	        \resumeSubHeadingListEnd
+       \resumeProjectHeading
+       	{\textbf{Social Media Analysis on YouTube Channel}}{\emph{John Deere}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Captured Customer emotions / needs from posted comments on John Deere India YouTube Channel. Analyzed comments and came-up with a solution to enable stakeholders to identify topics and sentiments to have more focused Action Items.}
+             	}
+	        \resumeSubHeadingListEnd	
+       \resumeProjectHeading
+       	{\textbf{Location driven Soil Analysis}}{\emph{John Deere}}
+       		\resumeSubHeadingListStart
+       			{\item
+       				{Completed during Internship, in which I performed end-to-end project delivery including processing and analysis of publicly available soil data to create APIs to get soil property on basis of geographical location using QGIS.}
+             	}
+	        \resumeSubHeadingListEnd	                
+%---------------Add New Project in future-------------------
+%       \resumeProjectHeading
+%       	{\textbf{Project-Name}}{\emph{Company-name}}
+%       		\resumeSubHeadingListStart
+%       			{\item
+%       				{Work done / description of project, roles and responsibilities, impact}
+%             	}
+%	        \resumeSubHeadingListEnd	        	        
+	\resumeSubHeadingListEnd
+
+
+
+
+%-------------------------------------------
+\end{document}
