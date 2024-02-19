@@ -2,7 +2,7 @@
 
 **<span class="smallcaps">Chandra Prakash Dixit</span>**  
 Bengaluru, KA, IN \| +91-9452-100-509 \|
-[<u>cppdev5y@gmail.com</u>](mailto:cppdev5y@gmail.com) \|
+[<u>dixitchandra.cpp@gmail.com</u>](mailto:dixitchandra.cpp@gmail.com) \|
 [<u>dixit-chandra</u>](https://www.linkedin.com/in/dixit-chandra/)
 
 </div>
